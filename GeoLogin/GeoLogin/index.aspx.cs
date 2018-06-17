@@ -26,7 +26,7 @@ public partial class index : System.Web.UI.Page
         client.Host = "smtp.gmail.com";
         client.Port = 587;
         client.EnableSsl = true;
-        client.Credentials = new System.Net.NetworkCredential("shahbaz.0092.ss@gmail.com", "Shahbaz@0092ss");
+        client.Credentials = new System.Net.NetworkCredential("shahbaz.0092.ss@gmail.com", "****@****");
         try
         {
             client.Send(mail);
